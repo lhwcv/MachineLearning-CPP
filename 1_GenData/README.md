@@ -1,7 +1,7 @@
 # Generate 2-dim  point data   with keyboard and mouse
-
+![image](https://github.com/lhwcv/MachineLearning-C_plus-Tutorial/blob/master/1_GenData/_imgs/gendata.jpg)
 # Prerequisite
-  Opencv >= 2
+  OpenCV >= 2
 # Type following cmd to run this module
 
   
@@ -14,7 +14,7 @@
 # Windows
   cd GenData
   cmake .
-  # Then using Visual studio open gendata.sln
+  //Then using Visual studio open gendata.sln
   
 
 
