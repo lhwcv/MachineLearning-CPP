@@ -1,4 +1,4 @@
-# Generat 2-dim  point data   with keyboard and mouse
+# Generate 2-dim  point data   with keyboard and mouse
 
 # Prerequisite
   Opencv >= 2
