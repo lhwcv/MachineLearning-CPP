@@ -33,7 +33,7 @@ namespace ml_cv{
 			imshow("curtain", curtain);
 			setMouseCallback("curtain", on_mouse, &positionData);
 			char c = waitKey(0);
-			currentID = (c - 48)%4;
+			currentID = (c - 48)%5+1;
 			if (c==' ')
 			{
 				write_position_data_to_txt(positionData, storeInFile);
@@ -47,7 +47,7 @@ namespace ml_cv{
 		ofstream ofs(filepath);
 		if (!ofs.is_open())
 			return -1;
-		ofs << "# x\t y\t label" << endl;
+		
 		for (unsigned int i = 0; i < positionData.size(); i++)
 		{
 			PositionData data = positionData[i];

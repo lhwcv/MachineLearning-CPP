@@ -5,17 +5,19 @@ Press key 0-4 together with mouse left button to draw these different labeled po
 Now just support 4 classes, actually more classes can be supported with some easy modification, you can do that!
 
 # Prerequisite
-  OpenCV >= 2
-  
+  Opencv >= 2 (just for gui function)
+
 # Linux(I test in Ubuntu 14.04)
-  cd GenData
-  cmake .
-  make 
-  ./run
+  cd 1_GenData </br>
+  mkdir build && cd build </br>
+  cmake .. </br>
+  make  </br>
+  ./run </br>
   
 # Windows
-  cd GenData
-  cmake .
+  cd 2_GenData </br>
+  cd build </br>
+  cmake .. </br>
   //Then using Visual studio open gendata.sln
   
 
