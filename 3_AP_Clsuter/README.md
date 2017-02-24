@@ -23,5 +23,5 @@ Not just support 2-dim point data but for high dimentional data!
   
 
 Refferences: 
-[1] https://en.wikipedia.org/wiki/Affinity_propagation
+[1] https://en.wikipedia.org/wiki/Affinity_propagation</br>
 [2] http://wenku.baidu.com/link?url=CQFVOw3fE-oW8K-465mCxo8-x3j3J8HXfDznhXDROQQVccMUasNVjrdhYMiHgQKRNcY8AcGMimMomCfSuoXJYtFzts5kDqoj-2B87P26zp3
