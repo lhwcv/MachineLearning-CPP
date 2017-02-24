@@ -6,7 +6,7 @@ OpenCV >= 2  See http://opencv.org/  </br>
 It is only for GUI  function. </br>
 
 # Content (wait to update)
-Cluster Algorothm:
+1. Cluster Algorothm:
 
 ![image](https://github.com/lhwcv/MachineLearning-C_plus-Tutorial/blob/master/3_AP_Clsuter/_imgs/4_cluster.PNG)
 ![image](https://github.com/lhwcv/MachineLearning-C_plus-Tutorial/blob/master/3_AP_Clsuter/_imgs/m_cluster.PNG)</br>
