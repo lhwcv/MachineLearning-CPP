@@ -1,0 +1,46 @@
+#file AffinityPropagation.hpp
+#comment  
+"lhwcv 2017-02-22\n This is a tool used to generate .hpp .cpp files!"
+
+#include
+vector   // #include <vector>
+Matrix.hpp // #include <Matrix>
+
+#namespace
+ml_cv   // namespace ml_cv{};
+using std;  using namespace std;
+
+#class AffinityPropagation
+{
+   +: 
+     load_data(const char*filename)
+     run()
+   -:
+     Matrix2d S_;
+	 
+}
+#func 
+int loop_print()
+{
+
+:tp1{
+   	for(int i=0;i<10;i++)
+		{
+			for(int j=0;j<10;j++)
+			{
+				std::cout<<"hello"<<endl;
+			}
+		}
+}
+:tp1 (i:m,j:n)
+
+
+
+
+
+
+   
+   
+}
+
+

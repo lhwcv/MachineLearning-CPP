@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include<opencv2/opencv.hpp>
-#include <Matrix.hpp>
+
 #include <AffinityPropagation.h>
 #define RED   Scalar(0,0,255)
 #define GREEN Scalar(0,255,0)

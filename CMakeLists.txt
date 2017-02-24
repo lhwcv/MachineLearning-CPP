@@ -1,0 +1,25 @@
+# the whole CMakeLists.txt for project ml_cv
+PROJECT(ml_cv)
+
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+find_package(OpenCV REQUIRED)
+
+# include directories
+INCLUDE_DIRECTORIES(
+  ${PROJECT_SOURCE_DIR}/0_BasicTools/include
+
+)
+
+# lib directories
+LINK_DIRECTORIES(
+  ${PROJECT_BINARY_DIR}/lib
+)
+
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+
+ADD_SUBDIRECTORY(0_BasicTools)
+ADD_SUBDIRECTORY(1_GenData)
+ADD_SUBDIRECTORY(2_Kmeans)
+ADD_SUBDIRECTORY(3_AP_Clsuter)

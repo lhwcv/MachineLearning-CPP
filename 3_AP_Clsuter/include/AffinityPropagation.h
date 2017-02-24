@@ -2,7 +2,7 @@
 #ifndef AFFINITYPROPGATION_H
 #define AFFINITYPROPGATION_H
 #include <vector>
-#include <Matrix.hpp>
+#include <Tools.hpp>
 namespace ml_cv{
 	template<typename Dtype>
 	inline Dtype euclidean_distance(const Dtype *vec1, const Dtype *vec2, int len,int step1,int step2)

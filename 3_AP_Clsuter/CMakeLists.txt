@@ -1,14 +1,15 @@
 # lhwcv  2017-02-18
-project(ap)
-
+project(ml_cv)
 cmake_minimum_required(VERSION 2.8)
 
-aux_source_directory(src SRC_LIST)
 
-include_directories(include)
+# include directories
+INCLUDE_DIRECTORIES(
+  include/
+)
 
-find_package(OpenCV REQUIRED)
+aux_source_directory(src AP_SRCS)
 
-add_executable(run_ap ${SRC_LIST})
+add_executable(run_ap ${AP_SRCS})
 
-target_link_libraries(run_ap ${OpenCV_LIBS} )
+target_link_libraries(run_ap ml_cv_tools_static ${OpenCV_LIBS} )
