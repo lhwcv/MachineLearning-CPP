@@ -5,21 +5,6 @@ It don't need specify how many clusters are there.  See https://en.wikipedia.org
 
 Not just support 2-dim point data but for high dimentional data!
 
-# Prerequisite
-  Opencv >= 2 (just for gui function)
-  
-# Linux
-  cd 3_AP_Clsuter </br>
-  mkdir build && cd build </br>
-  cmake .. </br>
-  make  </br>
-  ./run_kmeans </br>
-  
-# Windows
-  cd 3_AP_Clsuter </br>
-  cd build </br>
-  cmake .. </br>
-  //Then using Visual studio open gendata.sln
   
 
 Refferences: 
